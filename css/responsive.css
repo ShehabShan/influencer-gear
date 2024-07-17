@@ -1,0 +1,79 @@
+@media screen and (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    margin: 30px auto;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .brand-name h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .list {
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    height: 600px;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .text-container {
+    text-align: center;
+    gap: 20px;
+  }
+  .text-container h1 {
+    font-size: 35px;
+  }
+  .primary-btn {
+    margin-left: 180px;
+  }
+  .img-container {
+    width: 100%;
+    position: relative;
+    left: 45px;
+  }
+
+  /* main section start here */
+  main{
+    width: 100%;
+  }
+
+  .logo-container {
+    border: 1px solid red;
+  }
+  .logo {
+    width: 380px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 80px; */
+    flex-wrap: wrap;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  /* Grid section start here */
+  .grid-section {
+    width: 100%;
+    margin-bottom: 125px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 20px;
+    border-radius: 10px;
+  }
+  .grid-section p {
+    text-align: center;
+  }
+}
