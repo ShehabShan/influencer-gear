@@ -209,7 +209,6 @@ footer {
   height: 150px;
   color: #ffffff;
   margin: 50px auto;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
